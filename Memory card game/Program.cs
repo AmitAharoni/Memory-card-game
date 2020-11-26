@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Memory_card_game
 {
-     class Program
+     public class Program
      {
-          static void Main(string[] args)
+          public static void Main()
           {
+               UI memoryGame = new UI();
+               memoryGame.Run();
+               Console.Read();
           }
      }
 }
