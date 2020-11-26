@@ -59,7 +59,7 @@ Press 3 for hard game");
 
                internal static GameLogic.eGameMode GameMode(string i_Player1Name)
                {
-                    string inputString; 
+                    string inputString;   
                     int userPick;
                     string outPutMsg1 = string.Format(
 @"Hey {0}, Please select game Mode:
